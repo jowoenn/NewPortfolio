@@ -1,0 +1,38 @@
+.containerSectionAbout {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: whitesmoke;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Padding pake bootstrap ga bekerja jadi harus bikin dua class x.x  */
+
+.containerKiri {
+    color: #74BDCB;
+    font-weight: bold;
+    font-size: 65px;
+    padding: 30vh 10vh 0 22vh;
+}
+
+.containerKanan {
+    color: #74BDCB;
+    font-weight: bold;
+    font-size: 65px;
+    padding: 10vh 15vh 0 10vh;
+}
+
+.descriptionOne{
+    font-size: 18px;
+    margin: 10px 0 0 0;
+    font-weight: normal;
+    color: #74A2CC;
+}
+
+.descriptionTwo{
+    font-size: 18px;
+    margin: 10px 0 0 0;
+    font-weight: normal;
+    color: #74A2CC;
+    margin: 0 0 15vh 0;
+}

@@ -1,0 +1,50 @@
+/* Hide scrollbar*/
+
+.containerSection::-webkit-scrollbar {
+    display: none;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.containerSection {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    /* overflow: hidden; */
+    height: 100vh;
+    padding: 0;
+
+    /* Hide scrollbar */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+section h1 {
+    color: wheat;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+}
+
+.introductionPage {
+    background-color: #74BDCB;
+    position: relative;
+}
+
+.aboutPage, .projectsPage {
+    background-color: whitesmoke;
+}
+
+.contactPage{
+    background-color: #74A2CC;
+}
+
+

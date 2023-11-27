@@ -1,0 +1,73 @@
+.containerSection {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #74BDCB;
+    margin: 0;
+    padding: 0;
+    /* background-image: url('./Assets/BG.svg'); */
+}
+
+/* Background biru CITEH CITEH CITEH: #6CABDD; */
+
+/* Buat background tapi gajadi */
+
+.wallpaperRight {
+    background-color: lightsalmon;
+    height: 100vh;
+    width: 25%;
+    float: right;
+}
+
+.potretDiri {
+    margin: 18vh 0 0 0;
+    position: absolute;
+    right: 25vh;
+}
+
+.potretDiri img {
+    display: block;
+    width: 400px;
+}
+
+/* .whiteBottom {
+    background-color: white;
+    height: 5%;
+} */
+
+/* Konten */
+
+.nameTitle{
+    font-weight: bold;
+    font-size: 80px;
+    color: lightsalmon;
+    margin: 0 0 2vh 0;
+}
+
+.descriptionTitle {
+    font-weight: medium;
+    font-size: 25px;
+    color: white;
+}
+
+.containerTitle {
+    margin: 20vh 0 0 15vh;
+    width: 50%;
+    justify-content: center;
+    text-align: left;
+}
+
+.containerDescription {
+    margin: 25vh 0 0 0 ;
+}
+
+/* .descriptionChildOne {
+    margin: 0 50px 0 0;
+    color: white;
+    font-size: 20px;
+    font-weight: medium;
+} */
+
+.descriptionChild {
+    color: white;
+    font-size: 22px;
+    font-weight: lighter;
+}
